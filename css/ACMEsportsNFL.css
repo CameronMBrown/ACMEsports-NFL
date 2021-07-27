@@ -1,0 +1,25 @@
+@import-normalize;
+@import './font.css';
+@import './header.css';
+@import './footer.css';
+@import './btns.css';
+@import './team.css';
+@import './league.css';
+@import './conference.css';
+@import './divisions.css';
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  font-family: Gotham Rounded, sans-serif;
+  box-sizing: border-box;
+}
+
+#app__container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

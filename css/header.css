@@ -1,0 +1,22 @@
+#header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 3rem;
+  font-weight: bold;
+  height: 6rem;
+  background-color: #8b8684;
+  padding: 1rem;
+}
+
+.header__text {
+  color: white;
+  -webkit-text-stroke: 1px black;
+}
+
+.header__img{
+  height: 100%;
+}
+
+.header__nfl-logo{
+  height: 100%;
+}

@@ -1,0 +1,11 @@
+.btns__container{
+  margin: 2rem;
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+
+.btn{
+  font-size: 1rem;
+  padding: 0.5rem 1.25rem;
+}

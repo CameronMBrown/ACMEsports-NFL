@@ -1,0 +1,63 @@
+.division {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.division__title {
+  align-self: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 1rem 0 3rem 0;
+}
+
+.division__container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 6fr;
+  align-items: center;
+  width: 100%;
+}
+
+.division__team-entry{
+  display: flex;
+  /* justify-content: space-around; */
+  width: 100%;
+  padding-left: 3rem;
+  align-items: center;
+}
+
+#national_divisions {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  padding: 0 2rem 100px 0;
+}
+
+.national-logo{
+  margin: 1rem;
+  min-height: 5rem;
+}
+
+#national_divisions span, 
+#national_divisions img {
+  max-height: 8vh;
+}
+
+#american_divisions {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  align-items: center;
+  padding: 0 2rem 100px 0;
+}
+
+.american-logo {
+  margin: 1rem;
+  min-height: 5rem;
+}
+
+#american_divisions span, 
+#american_divisions img {
+  max-height: 8vh;
+}

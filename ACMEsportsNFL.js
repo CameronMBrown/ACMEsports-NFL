@@ -240,8 +240,15 @@ function appendTeam(team, standing, conference = undefined, division = undefined
   // whether sorting by league, conference or divison, places team data in the DOM appropriately
   // calls to this function should be in order of rank
 
+  // handle LA, NY teams names already formatted properly
+  let fullName
+  if (team.name === "LA Rams" || 
+    team.name === "LA Chargers" || 
+    team.name === "NY Jets" ||
+    team.name === "NY Giants") fullName = team.name
+  else fullName = `${team.name} ${team.nickname}`
+
   // prepare content div
-  const fullName = `${team.name} ${team.nickname}`
   teamHTML = `
     <span class="team__standing">${standing}</span>
     <div class="team__logo">
